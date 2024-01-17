@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matahamatics</title>
+    <link rel="stylesheet" href="task2.html">
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="task2.js"></script>
+
+</head>
+<body>
+  <div class="main">
+    <label class="first" >Enter the first   number  </label>
+    <input type="number" id="first-number" placeholder="Enter the value">
+    <br>
+    <button onclick="change()" id="rotation"><i class="fa fa-exchange" aria-hidden="true"></i></button>
+    <br>
+    <label class="second" >Enter the second number </label>
+    <input type="number" id="second-number" placeholder="Enter the value">
+
+    <div class="buttons">
+      <button onclick="additionClick()" name="addition" class="addition"><i class="fa fa-plus"></i></button>
+      <button onclick="substractionclick()" name="substraction" class="substraction"><i class="fa fa-minus" ></i></button>
+      <button onclick="multiplicationclick()" name="multiplication" class="multiplication"><i class="fa fa-times"></i></button>
+      <button onclick="divitonclick()" name="divition" class="divition">/</button>
+    </div>
+
+    <div id="main">
+           
+        <h3 id="screen"></h3>
+    </div>
+  </div>  
+</body>
+</html>
